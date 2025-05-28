@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio M. Fa'iq Rasis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f3f7;
+      color: #333;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 8%;
+      background-color: #f2f3f7;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .hero-text {
+      max-width: 600px;
+      flex: 1;
+    }
+
+    .tagline {
+      color: #080320;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      color: #072c50;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      margin-bottom: 2rem;
+      color: #5a5a5a;
+      line-height: 1.6;
+    }
+
+    .hero-img {
+      flex: 1;
+      text-align: right;
+    }
+
+    .hero-img img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .services {
+      padding: 4rem 8%;
+      background-color: white;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 2.5rem;
+      color: #072c50;
+      margin-bottom: 3rem;
+    }
+
+    .service-cards {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fdfdfd;
+      border: 1px solid #eee;
+      padding: 2rem;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #072c50;
+      margin-bottom: 1rem;
+    }
+
+    .card p, .card li {
+      color: #5a5a5a;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    .card ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="tagline">BIODATA DIRI</p>
+      <h1>M. Fa'iq Rasis</h1>
+      <p class="description">
+        Hallo, saya M. Fa'iq Rasis berasal dari kota Pangkalan Brandan. Saya lahir 14 Januari 2006
+        di kota Pangkalan Brandan. Sekarang saya tinggal di Perumnas Mandala, Jl. Merpati, GG Walet 2.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="FOTOFAIQ2.jpg" alt="M. Fa'iq Rasis" />
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Seputar Kehidupan Saya</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>SKIL</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>MOTO HIDUP</h3>
+        <p>"Semua orang memiliki masanya masing-masing. Tak perlu terburu-buru, tunggulah. Kesempatan itu akan datang dengan sendirinya." - Gol D Roger</p>
+      </div>
+      <div class="card">
+        <h3>SOSMED</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/mfaiqrasiss?igsh=NXVhN3hya3pnMHBo">ig: @mfaiqrasiss</a></li>
+          <li><a href="https://www.tiktok.com/@mfaiqq14?_t=ZS-8wg7Dacv6bi&_r=1">tt :@MFAIQ14</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100022327641455">fb: @mfaiq</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
