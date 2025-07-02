@@ -1,47 +1,45 @@
-.container {
-  margin: 0 auto;
-  max-width: 400px;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: cursive;
+  background-color: slateblue;
+}
+
+.calendar-container {
+  background-color: white;
+  width: 300px;
   text-align: center;
-  padding: 20px;
-  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
-.title {
-  font-size: 36px;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-.timer {
-  font-size: 72px;
-  color: #2c3e50;
-}
-
-button {
-  font-size: 18px;
-  padding: 10px 20px;
-  margin: 10px;
+.month-name {
+  margin: 0;
+  background-color: orangered;
   color: white;
-
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: opacity 0.3s ease-in-out;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-button:hover {
-  opacity: 0.7;
+.day-name {
+  font-size: 20px;
+  color: darkgray;
 }
 
-#start {
-  background-color: #27ae60;
+.day-number {
+  font-size: 80px;
+  margin: 0;
+  font-weight: bold;
 }
 
-#stop {
-  background-color: #c0392b;
-}
-
-#reset {
-  background-color: #7f8c8d;
+.year {
+  margin: 20px 0;
+  font-size: 20px;
+  color: darkgray;
+  font-weight: 500;
 }
